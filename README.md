@@ -27,3 +27,11 @@ git commit -m "update git notes"
 git config --global user.email "you@example.com"
 git config --global user.name "myname" (this is your Github username)
 
+# view your previous commits
+git log
+(or concise version)
+git log --oneline
+
+# go back to a previous commit
+git checkout (hashcode of the commit you want to stay)
+e.g. git checkout b02bece
