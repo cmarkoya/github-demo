@@ -76,3 +76,19 @@ Keeps the records of the files that we do not want Git to track.
     notes.txt
 3. run git status again, and you will now only see the modified .gitignore file. The other files are hidden.
 
+# push changes onto Github
+git push -u origin main
+-u means the upstream
+if you are editing a forked repo??
+
+# Github key
+username is your Github username
+when Git prompts you to enter your passkey, it refers to the **personal access token** that is different from your Github account password.
+
+# Generate a personal access token
+In your Github account, go to Settings -> Developer Settings -> personal access token -> tokens (classic)
+If you don't have a token already, you can click "generate new token" -> generate token (classic)
+In the scope, check all within repo.
+copy the key and save it in a secure location
+
+
