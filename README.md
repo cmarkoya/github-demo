@@ -79,7 +79,6 @@ Keeps the records of the files that we do not want Git to track.
 # push changes onto Github
 git push -u origin main
 -u means the upstream
-if you are editing a forked repo??
 
 # Github key
 username is your Github username
@@ -91,4 +90,18 @@ If you don't have a token already, you can click "generate new token" -> generat
 In the scope, check all within repo.
 copy the key and save it in a secure location
 
+---------
+# Collaboration
 
+# Sync Fork
+After you push your local commits onto github, always sync forks before you do pull requests. This allows your forked repo to be up-to-date with others before you submit any changes.
+1 commit ahead --meaning you made changes 
+2 commits behind --others made changes to the original repo
+
+# Pull Request
+click "Contribute" button -> open pull request -> add title and description
+
+# Project Lead review pull requests
+click "Pull Requests" -> go into the pull request and look at the commits, file changes, etc.
+
+If we see "merge branch xxxxx:main into main", that means we synced the fork.
