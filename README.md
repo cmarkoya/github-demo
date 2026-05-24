@@ -35,3 +35,9 @@ git log --oneline
 # go back to a previous commit
 git checkout (hashcode of the commit you want to stay)
 e.g. git checkout b02bece
+
+# undoing changes
+git reset --soft hashcode 
+(soft means you still can keep it if you want to get it back)
+git reset --hard hashcode 
+(hard measn completly getting rid of it)
