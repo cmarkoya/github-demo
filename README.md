@@ -63,3 +63,16 @@ Next time you have changed a file and want to restore it to the state it is in t
 
 git checkout -- path/to/foo
 This will restore the file foo to the state it is in the index.
+
+# .gitignore file
+Keeps the records of the files that we do not want Git to track.
+
+1. create the files to be ignored
+2. run git status, you will see the files untracked
+2. create a .gitignore file
+2. type in the files or folders that we want Git to ignore, for example:
+    .env
+    data/ --if this is a folder to be ignored, alwasys add / after the folder name
+    notes.txt
+3. run git status again, and you will now only see the modified .gitignore file. The other files are hidden.
+
